@@ -1,0 +1,9 @@
+@CHARSET "UTF-8";
+body{font-size:16px;margin:50px;color:#666;font-family:宋体,微软雅黑;}
+.header{margin-left:200px;}
+.center{text-align:center;}
+#formname{text-align:center;}
+#formname fieldset{width:28em;border:solid 1px #aaa;position:relative;top:-3px;}
+label{width:100px;float:left;text-align:right;color:#478ded;}
+checkbox{position:relative;}
+#button{margin-left:-35px;}

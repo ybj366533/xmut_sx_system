@@ -1,0 +1,8 @@
+@CHARSET "UTF-8";
+.header{margin-left:200px;margin-top:35px;}
+.lable{margin-left:100px;float:left;font-size:18px;margin-top:-3px;}
+#field{border:groove #ccc 1px;height:20px;margin-left:25px;margin-top:-3px;float:left;}
+.submit{width:60px;height:20px;border:#808080 0px solid;float:left;margin-left:25px;margin-top:-5px;}
+
+
+

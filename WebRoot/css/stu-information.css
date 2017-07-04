@@ -1,0 +1,20 @@
+*{margin:0;
+padding: 0;}
+
+.stu li{
+	line-height: 150px;
+	text-align: center;
+}
+.table td{
+	min-height: 30px;
+	width: 50%;
+	border: 1px solid #31B0D5;
+}
+.table table{
+	margin: 0 auto;
+}
+
+.button{
+	margin-right: 25px;
+}
+@CHARSET "UTF-8";

@@ -1,0 +1,25 @@
+@CHARSET "UTF-8";
+.message-boeder tr{
+	background-color:#E8E9EE ;
+}
+.message-boeder td{
+	min-width: 400px;
+}
+.message-boeder th{
+	min-width: 200px;
+	color: #417ac1;
+}
+.message-boeder{
+	margin-left: 20%;
+	margin-top: 5%;
+}
+.text{
+	min-width: 300px;
+}
+.message-boeder table{
+	border: 1px solid #31B0D5;
+}
+.button{
+	margin-top: 20px;
+	margin-left: 50px;
+}

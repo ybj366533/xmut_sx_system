@@ -1,0 +1,37 @@
+.information table{
+	margin: auto;
+	border: none;
+	background-color:#8cccf3;
+	width: 100%;
+}
+.information td{
+	min-width: 375px;
+	min-height: 30px;
+	font-size: 22px;
+	text-align: center;
+}
+.history-grade{
+	margin-top: 10%;
+}
+.history-grade table{
+	width: 100%;
+	border: 1px #666666 solid;
+	padding: 0;
+	border-collapse: collapse;
+	margin: auto;
+}
+.history-grade th{
+	background-color: #8cccf3;
+	border-left: 1px solid #666666;
+	min-height: 30px;
+}
+.history-grade td{
+	border-left: 1px solid #666666;
+	border-bottom: 1px solid #666666;
+	min-width: 150px;
+	text-align: center;
+	min-height: 30px;
+	font-size: 18px;
+	background-color: #E8E9EE;
+}
+@CHARSET "UTF-8";

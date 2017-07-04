@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<property name="myeclipse.connection.profile">Mysql</property>
+		<property name="connection.url">jdbc:mysql://localhost:3306/testsystem?useUnicode=true&amp;characterEncoding=UTF-8</property>
+		<property name="connection.username">root</property>
+		<property name="connection.password">root</property>
+		<property name="connection.driver_class">
+			com.mysql.jdbc.Driver
+		</property>
+		<property name="dialect">
+			org.hibernate.dialect.MySQLDialect
+		</property>
+		<!-- 配置事务实现方式 -->
+		<property name="transaction.factory_class">
+			org.hibernate.transaction.JDBCTransactionFactory
+		</property>
+
+		<!-- 配置JDBC里batch的大小 -->
+		<property name="jdbc.batch_size">50</property>
+		<property name="cache.use_second_level_cache">false</property>
+
+		<!-- 配置线程安全的session -->
+		<property name="current_session_context_class">thread</property>
+
+		<!-- 显示SQL -->
+		<property name="show_sql">false</property>
+		<property name="format_sql">false</property>
+		
+		
+		<mapping resource="com/test/model/Users.hbm.xml" />
+		<mapping resource="com/test/model/Student.hbm.xml" />
+		<mapping resource="com/test/model/Teacher.hbm.xml" />
+		<mapping resource="com/test/model/Placard.hbm.xml" />
+		<mapping resource="com/test/model/Works.hbm.xml" />
+		<mapping resource="com/test/model/Loganderror.hbm.xml" />
+		<mapping resource="com/test/model/Professional.hbm.xml" />
+		<mapping resource="com/test/model/Department.hbm.xml" />
+		<mapping resource="com/test/model/Subject.hbm.xml" />
+		<mapping resource="com/test/model/Subitem.hbm.xml" />
+		<mapping resource="com/test/model/Test.hbm.xml" />
+		<mapping resource="com/test/model/Answer.hbm.xml" />
+		<mapping resource="com/test/model/Grade.hbm.xml" />
+	</session-factory>
+
+
+</hibernate-configuration>

@@ -1,0 +1,35 @@
+@CHARSET "UTF-8";
+body{
+	width: 100%;
+}
+.update-stu li{
+	list-style: none;
+}
+
+.update-stu dl
+{
+    float: left;
+    width: 100%;
+    clear: both;
+    margin: 5px 0px;
+}
+.update-stu dl dt
+{
+    float: left;
+    width: 100px;
+    text-align: right;
+    color: #417ac1;
+}
+.update-stu dl dd
+{
+    float: left;
+    width: auto;
+    text-align: left;
+    margin-left: 5px;
+    width: 200px;
+}
+.update-btn{
+	width: 60px;
+	height: 30px;
+	margin-left: 10%;
+}

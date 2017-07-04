@@ -1,0 +1,15 @@
+@CHARSET "UTF-8";
+body,div,h3,form,fieldset,input{margin:0;padding:0;border:0;outline:none;}
+body{background:#ffffff;font-family:宋体;margin-bottom:20px;padding-bottom:40px;}
+.formname{width:430px;margin:30px auto;padding:60px 30px;background:#c9d0de;border:1px solid #e1e1e1;}
+h3{font-size:35px;color:#34bccb;text-align:center;margin:0 0 35px 0;text-shadow:0px 2px 0px #f2f2f2}
+label{float:left;clear:left;margin:11px 20px 0 0;width:95px;text-align:right;font-size:18px;
+font-family:宋体;color:#445668;text-shadow:0px 1px 0px #f2f2f2;}
+input{width:210px;height:35px;padding:5px 20px 0px 20px;margin:0 0 20px 0;background:#5E768D;
+font-family:宋体,sans-serif;font-size:16px;color:#1c0900;text-shadow:0px -1px 0px #334f71;}
+textarea{width:210px;height:170px;padding:12px 20px 0px 20px;margin:0 0 20px 0;background:#5E768D
+font-family:宋体,sans-serif;font-size:16px;color:#ff0080;text-shadow:0px -1px 0px #334f71;}
+textarea{color:#ff00ff;text-shadow:0px -1px 0px #38506b;}
+input:focus,textarea:focus{background:#728eaa;}
+p{margin-left:140px;}
+input[type=submit]{width:105px;height:42px;border:1px solid #556f8c;cursor:pointer;color:#FFFFFF;}

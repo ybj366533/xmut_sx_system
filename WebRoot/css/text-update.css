@@ -1,0 +1,14 @@
+@CHARSET "UTF-8";
+.text-update table{
+	margin:0 auto;
+}
+.text-update thead{
+	background-color:#f4f4f4;
+	background-image:-webkit-gradient(linear,0 0,0 100%,from(#fff),to(#e4e4e4));
+	
+}
+.text-update td{
+	min-width:80px;
+	text-align:center;
+	border:1px solid #c5c5c5;
+}

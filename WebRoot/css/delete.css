@@ -1,0 +1,14 @@
+@CHARSET "UTF-8";
+ul{padding:0;margin:0;list-style-type:none;}
+.header{margin-left:200px;margin-top:35px;}
+.lable{margin-left:100px;float:left;}
+#field{border:groove #ccc 1px;height:20px;margin-left:25px;margin-top:-5px;float:left;}
+.submit{width:60px;height:20px;border:#808080 0px solid;float:left;margin-left:25px;margin-top:-3px;}
+.submit1{margin-left:180px;}
+.submit1,.reset{width:60px;height:20px;margin-top:18px;}
+.chart{border:#0058a3 1px solid;border-collapse:collapse;background-color:#D9EBB1;margin-top:60px;}
+.chart th{border:1px solid #0058a3;background-color:#D6A7C9;color:#FFFFFF;font-weight:bold;
+padding-top:4px;padding-bottom:4px;padding-left:12px;padding-right:12px;text-align:center;}
+.chart td{border:1px solid #0058a3;text-align:center;padding-top:4px;padding-bottom:4px;
+padding-left:10px;padding-right:10px;}
+.chart tr:hover{background-color:#CC9999;}
